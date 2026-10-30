@@ -4,5 +4,8 @@
  */
 
 export default function decorate(block) {
-  console.log('soy pokemin block...')
+  const label = row.children[0];
+  const summary = document.createElement('summary');
+  summary.className = 'accordion-item-label';
+  summary.append(...label.childNodes);
 }
