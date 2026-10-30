@@ -4,5 +4,5 @@
  */
 
 export default function decorate(block) {
-  console.log('soy pokemin block...')
+  console.log('soy pokemin block...');
 }
