@@ -2,7 +2,7 @@ export default function decorate(block) {
   [...block.children].forEach((row, index) => {
     row.classList.add('pokemon-row', `pokemon-row-${index}`);
     const first = row.firstElementChild;
-    first && first.classList.add('pokemon-item-first');
+    first.classList.add('pokemon-item-first');
     [...row.children].forEach((col) => {
       col.classList.add('pokemon-item');
       const pic = col.querySelector('picture');
