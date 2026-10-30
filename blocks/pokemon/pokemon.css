@@ -1,3 +1,50 @@
+.section .pokemon-wrapper {
+  margin-bottom: 25px;
+}
+
+.section .pokemon-wrapper:last-child {
+  margin-bottom: 0;
+}
+
 .pokemon {
   background-color: yellowgreen;
+  display: flex;
+  gap: 10px;
 }
+
+.pokemon.dark {
+  background-color: brown;
+  color: white;
+}
+
+.pokemon.light {
+  background-color: palegoldenrod;
+  color: black;
+}
+
+.pokemon .pokemon-row {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+
+.pokemon .pokemon-row .pokemon-item {
+  background-color: cadetblue;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pokemon .pokemon-row .pokemon-item.pokemon-item-first {
+}
+
+/* .pokemon .pokemon-row .pokemon-item p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon .pokemon-row .pokemon-item img {
+  width: 74%;
+} */

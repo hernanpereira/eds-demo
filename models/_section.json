@@ -1,0 +1,8 @@
+{
+  "filters": [
+    {
+      "id": "section",
+      "components": ["cards", "hero", "pokemon"]
+    }
+  ]
+}
