@@ -4,8 +4,10 @@
  */
 
 export default function decorate(block) {
-  const label = row.children[0];
-  const summary = document.createElement('summary');
-  summary.className = 'accordion-item-label';
-  summary.append(...label.childNodes);
+  [...block.children].forEach((row) => {
+    const label = row.children[0];
+    const summary = document.createElement('summary');
+    summary.className = 'accordion-item-label';
+    summary.append(...label.childNodes);
+  });
 }
