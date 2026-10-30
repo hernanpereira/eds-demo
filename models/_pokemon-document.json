@@ -1,0 +1,10 @@
+{
+  "models": [
+    {
+      "id": "pokemon-document",
+      "fields": [
+        { "component": "text", "name": "nombre", "label": "Nombre", "valueType": "string" }
+      ]
+    }
+  ]
+}
