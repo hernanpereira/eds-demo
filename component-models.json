@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "id": "pokemon",
+      "fields": [
+        {
+          "component": "text",
+          "name": "titulo",
+          "value": "",
+          "label": "Título",
+          "valueType": "string"
+        }
+      ]
+    }
+  ]
+}
