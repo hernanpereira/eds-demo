@@ -29,7 +29,7 @@
 }
 
 .pokemon .pokemon-row .pokemon-item {
-  background-color: aquamarine;
+  background-color: blueviolet;
   text-align: center;
   display: flex;
   flex-direction: row;
