@@ -4,5 +4,7 @@
  */
 
 export default function decorate(block) {
-  console.log('soy pokemon block...')
+  [...block.children].forEach((row, index) => {
+    const label = row.children[0];
+  });
 }
